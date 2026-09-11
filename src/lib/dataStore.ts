@@ -66,26 +66,26 @@ const DEFAULT_PROJECTS: Project[] = [
     duration: "0:45",
     featured: true
   },
-  {
-    id: 3,
-    title: "Google lances reake",
-    category: "Saas Animation",
-    description: "Clean tech review for a major influencer.",
-    image: "https://i.postimg.cc/ydSwHbGG/2v-WH764AUE8-HD.jpg",
-    youtubeUrl: "https://www.youtube.com/embed/2vWH764AUE8?rel=0",
-    duration: "1:30",
-    featured: true
-  },
-  {
-    id: 4,
-    title: "Bangladesh Growth video",
-    category: "Motion Graphics",
-    description: "Dynamic intro animation for a Reneta LTD.",
-    image: "https://i.postimg.cc/L6m0C5mD/dc-TUgs-XTc-QI-HD.jpg",
-    youtubeUrl: "https://www.youtube.com/embed/dcTUgsXTcQI?rel=0",
-    duration: "1:15",
-    featured: true
-  },
+  // {
+  //   id: 3,
+  //   title: "Google lances reake",
+  //   category: "Saas Animation",
+  //   description: "Clean tech review for a major influencer.",
+  //   image: "https://i.postimg.cc/ydSwHbGG/2v-WH764AUE8-HD.jpg",
+  //   youtubeUrl: "https://www.youtube.com/embed/2vWH764AUE8?rel=0",
+  //   duration: "1:30",
+  //   featured: true
+  // },
+  // {
+  //   id: 4,
+  //   title: "Bangladesh Growth video",
+  //   category: "Motion Graphics",
+  //   description: "Dynamic intro animation for a Reneta LTD.",
+  //   image: "https://i.postimg.cc/L6m0C5mD/dc-TUgs-XTc-QI-HD.jpg",
+  //   youtubeUrl: "https://www.youtube.com/embed/dcTUgsXTcQI?rel=0",
+  //   duration: "1:15",
+  //   featured: true
+  // },
   {
     id: 5,
     title: "Here's My Advice for Video Editing in 2026",
@@ -96,16 +96,16 @@ const DEFAULT_PROJECTS: Project[] = [
     duration: "0:45",
     featured: true
   },
-  {
-    id: 6,
-    title: "Cyberpunk Glitch Edit",
-    category: "Motion Graphics",
-    description: "Complex glitch effects and futuristic typography.",
-    image: "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=800&auto=format&fit=crop",
-    youtubeUrl: "https://www.youtube.com/watch?v=BvXGPhE-Tto",
-    duration: "0:30",
-    featured: true
-  },
+  // {
+  //   id: 6,
+  //   title: "Cyberpunk Glitch Edit",
+  //   category: "Motion Graphics",
+  //   description: "Complex glitch effects and futuristic typography.",
+  //   image: "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=800&auto=format&fit=crop",
+  //   youtubeUrl: "https://www.youtube.com/watch?v=BvXGPhE-Tto",
+  //   duration: "0:30",
+  //   featured: true
+  // },
   {
     id: 7,
     title: "Most people think editing is just cutting clips",
