@@ -70,7 +70,7 @@ export default function Hero() {
             <div className="absolute -inset-4 bg-accent/10 blur-3xl rounded-full z-0 animate-pulse" />
             <div className="relative z-10 w-full h-full rounded-[40px] overflow-hidden border border-white/10 glass-dark">
               <img 
-                 src="/src/assets/images/IMG_6901.png" 
+                 src="/public/images/IMG_6901.png" 
                  alt="Ariyan Shihab" 
                  className="w-full h-full object-cover object-center transition-all duration-700 hover:scale-105" 
               />
