@@ -61,9 +61,9 @@ const DEFAULT_PROJECTS: Project[] = [
     title: "Viral Algorithm Hack",
     category: "Reels",
     description: "Joseph's viral algorithm hack for Instagram Reels.",
-    image: "https://i.postimg.cc/1nx39qdm/Screenshot-2026-09-08-003330.png",
+    image: "/public/images/joseph.png",
     youtubeUrl: "https://www.youtube.com/embed/g_z6Jui_uQc",
-    duration: "0:50",
+    duration: "0:45",
     featured: true
   },
   {
