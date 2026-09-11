@@ -50,8 +50,8 @@ const DEFAULT_PROJECTS: Project[] = [
     id: 1,
     title: "",
     category: "Talking Head",
-    description: "Cinematic Realstate video for a high-end WEC.",
-    image: "https://i.postimg.cc/CLhKLMLm/video-captu.png",
+    description: "Doctor's advice",
+    image: "/images/googleads.png",
     youtubeUrl: "https://www.youtube.com/embed/tFaPpVxLb0w?si=Bdk3z6H8LopAqecb",
     duration: "2:15",
     featured: true
@@ -91,7 +91,7 @@ const DEFAULT_PROJECTS: Project[] = [
     title: "Here's My Advice for Video Editing in 2026",
     category: "Reels",
     description: "Personal Brand",
-    image: "https://i.postimg.cc/MpbHWcyZ/video-capture-t0001-11seg-2351.png",
+    image: "/images/ariyan.png",
     youtubeUrl: "https://www.youtube.com/embed/xxXjrW2XAb8",
     duration: "0:45",
     featured: true
@@ -111,17 +111,17 @@ const DEFAULT_PROJECTS: Project[] = [
     title: "Most people think editing is just cutting clips",
     category: "Reels",
     description: "Personal Brand",
-    image: "https://i.postimg.cc/HxL2gcPt/video-capture-t0008-54seg-9456.png",
+    image: "/images/shihab.png",
     youtubeUrl: "https://www.youtube.com/embed/k1l8jvG0Shk",
     duration: "0:40",
     featured: true
   },
   {
     id: 8,
-    title: "Health & Food",
+    title: "Diet",
     category: "Reels",
     description: "IG Reels",
-    image: "https://i.postimg.cc/SR67L6XS/video-capture-t0042-74seg-2887.png",
+    image: "/images/diet.png",
     youtubeUrl: "https://www.youtube.com/embed/-fYjUvpZBrg",
     duration: "0:35",
     featured: true
@@ -131,7 +131,7 @@ const DEFAULT_PROJECTS: Project[] = [
     title: "Stock Market",
     category: "Talking Head",
     description: "",
-    image: "https://i.postimg.cc/CLh1fT25/maxresdefault.jpg",
+    image: "/images/stock.png",
     youtubeUrl: "https://www.youtube.com/embed/WehL5lxNm7M?si=LIG2NfRk82-ZHnT4",
     duration: "1:00",
     featured: true
@@ -141,7 +141,7 @@ const DEFAULT_PROJECTS: Project[] = [
     title: "Stock Market Talks",
     category: "Talking Head",
     description: "",
-    image: "https://i.postimg.cc/rFVmtXPb/maxresdefault-(1).jpg",
+    image: "/images/market.png",
     youtubeUrl: "https://www.youtube.com/embed/9S9R5gchodI?si=AHe55w-kg9r4iS5Z",
     duration: "1:20",
     featured: true
