@@ -3,7 +3,7 @@ import { safeStorage } from "./safeStorage";
 export interface Project {
   id: number | string;
   title: string;
-  category: "Reels" | "Talking Head" | "Saas Animation" | "Motion Graphics" | "Documentary" | string;
+  category: "Reels" | "Talking Head" | "Saas Animation" | "Motion Graphics" | "Documentary" |  string;
   description: string;
   image: string;
   youtubeUrl: string;
@@ -64,6 +64,16 @@ const DEFAULT_PROJECTS: Project[] = [
     image: "/images/joseph.png",
     youtubeUrl: "https://www.youtube.com/embed/g_z6Jui_uQc",
     duration: "0:45",
+    featured: true
+  },
+  {
+    id: 3,
+    title: "Use This 5 Font on your video",
+    category: "Reels",
+    description: "Best five fonts",
+    image: "/images/fivefont.png",
+    youtubeUrl: "https://www.youtube.com/embed/_olyRNiBtZw",
+    duration: "0:21",
     featured: true
   },
   // {
