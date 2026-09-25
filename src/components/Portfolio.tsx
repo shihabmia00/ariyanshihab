@@ -12,7 +12,7 @@ const getYouTubeId = (url: string) => {
   return (match && match[2].length === 11) ? match[2] : null;
 };
 
-const categories = ["Reels", "Talking Head", "Saas Animation", "Motion Graphics"]; 
+const categories = ["Reels", "Talking Head", "Personal Brand", "Motion Graphics"];
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState("Reels");
   const [selectedVideo, setSelectedVideo] = useState<{ id: string, title: string } | null>(null);

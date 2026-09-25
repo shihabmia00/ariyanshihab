@@ -576,7 +576,27 @@ export default function AdminPage() {
               </div>
 
               <div className="flex items-center gap-2 flex-wrap w-full sm:w-auto">
-                {["All", "Reels", "Commercial", "Saas Animation", "Motion Graphics", "Documentary"].map((cat) => (
+              
+              
+              
+              
+
+
+
+
+
+
+
+
+
+
+              
+              
+              {/* এখানে ক্যাটেগরি রিমুভ/এড করতে হবে  */}
+              
+          
+              
+                {["All", "Reels", "Talking Head", "Personal Brand", "Motion Graphics"].map((cat) => (
                   <button
                     key={cat}
                     onClick={() => setProjectCategoryFilter(cat)}
@@ -967,11 +987,32 @@ export default function AdminPage() {
                     onChange={(e) => setEditingProject({ ...editingProject, category: e.target.value })}
                     className="w-full bg-primary border border-white/10 rounded-xl px-4 py-2.5 text-xs text-text-pure"
                   >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    {/*এখানে ক্যাটেগোরি চেঞ্জ/এড করতে হবে  */}
                     <option value="Reels">Reels</option>
-                    <option value="Commercial">Commercial</option>
-                    <option value="Saas Animation">Saas Animation</option>
+                    <option value="Commercial">Talking Head</option>
+                    <option value="Saas Animation">Personal Brand</option>
                     <option value="Motion Graphics">Motion Graphics</option>
-                    <option value="Documentary">Documentary</option>
+                    {/* <option value="Documentary">Documentary</option> */}
+                    {/* <option value="Personal Brand">Personal Brand</option> */}
                   </select>
                 </div>
 

@@ -3,7 +3,7 @@ import { safeStorage } from "./safeStorage";
 export interface Project {
   id: number | string;
   title: string;
-  category: "Reels" | "Talking Head" | "Saas Animation" | "Motion Graphics" | "Documentary" |  string;
+  category: "Reels" | "Talking Head" | "Personal Brand" | "Motion Graphics" | string;
   description: string;
   image: string;
   youtubeUrl: string;
@@ -69,9 +69,9 @@ const DEFAULT_PROJECTS: Project[] = [
   {
     id: 3,
     title: "Use This 5 Font on your video",
-    category: "Reels",
+    category: "Personal Brand",
     description: "Best five fonts",
-    image: "/images/fivefont.png",
+    image: "/images/font.png",
     youtubeUrl: "https://www.youtube.com/embed/_olyRNiBtZw",
     duration: "0:21",
     featured: true
@@ -156,16 +156,16 @@ const DEFAULT_PROJECTS: Project[] = [
     duration: "1:20",
     featured: true
   },
-  {
-    id: 11,
-    title: "Documentary: The Artisan",
-    category: "Documentary",
-    description: "Story highlighting the craftsmanship of a luthier.",
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
-    youtubeUrl: "https://www.youtube.com/watch?v=BvXGPhE-Tto",
-    duration: "5:20",
-    featured: false
-  }
+  // {
+  //   id: 11,
+  //   title: "Documentary: The Artisan",
+  //   category: "Documentary",
+  //   description: "Story highlighting the craftsmanship of a luthier.",
+  //   image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
+  //   youtubeUrl: "https://www.youtube.com/watch?v=BvXGPhE-Tto",
+  //   duration: "5:20",
+  //   featured: false
+  // }
 ];
 
 const DEFAULT_REVIEWS: ClientReview[] = [
