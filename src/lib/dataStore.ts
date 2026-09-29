@@ -53,7 +53,7 @@ const DEFAULT_PROJECTS: Project[] = [
     description: "Doctor's advice",
     image: "/images/googleads.png",
     youtubeUrl: "https://www.youtube.com/embed/tFaPpVxLb0w?si=Bdk3z6H8LopAqecb",
-    duration: "2:15",
+    duration: "0:37",
     featured: true
   },
   {
@@ -101,9 +101,9 @@ const DEFAULT_PROJECTS: Project[] = [
     title: "Here's My Advice for Video Editing in 2026",
     category: "Reels",
     description: "Personal Brand",
-    image: "/images/ariyan.png",
+    image: "/images/ChatGPT Image Sep 27, 2026, 10_41_13 PM.png",
     youtubeUrl: "https://www.youtube.com/embed/xxXjrW2XAb8",
-    duration: "0:45",
+    duration: "0:53",
     featured: true
   },
   // {
@@ -121,9 +121,9 @@ const DEFAULT_PROJECTS: Project[] = [
     title: "Most people think editing is just cutting clips",
     category: "Reels",
     description: "Personal Brand",
-    image: "/images/shihab.png",
+    image: "/images/ChatGPT Image Sep 27, 2026, 10_37_08 PM.png",
     youtubeUrl: "https://www.youtube.com/embed/k1l8jvG0Shk",
-    duration: "0:40",
+    duration: "0:49",
     featured: true
   },
   {
@@ -131,29 +131,49 @@ const DEFAULT_PROJECTS: Project[] = [
     title: "Diet",
     category: "Reels",
     description: "IG Reels",
-    image: "/images/diet.png",
+    image: "/images/ChatGPT Image Sep 27, 2026, 10_43_46 PM.png",
     youtubeUrl: "https://www.youtube.com/embed/-fYjUvpZBrg",
-    duration: "0:35",
+    duration: "0:43",
     featured: true
   },
   {
     id: 9,
-    title: "Stock Market",
+    title: "Right way to investment on stock market ",
     category: "Talking Head",
     description: "",
-    image: "/images/stock.png",
+    image: "/images/stock market investment.png",
     youtubeUrl: "https://www.youtube.com/embed/WehL5lxNm7M?si=LIG2NfRk82-ZHnT4",
-    duration: "1:00",
+    duration: "8:07",
     featured: true
   },
   {
     id: 10,
-    title: "Stock Market Talks",
+    title: "One way make money in stock market ",
     category: "Talking Head",
     description: "",
-    image: "/images/market.png",
+    image: "/images/one way make money.png",
     youtubeUrl: "https://www.youtube.com/embed/9S9R5gchodI?si=AHe55w-kg9r4iS5Z",
-    duration: "1:20",
+    duration: "10:00",
+    featured: true
+  },
+   {
+    id: 11,
+    title: "Start getting paid the biggest companies just $500",
+    category: "Talking Head",
+    description: "",
+    image: "/images/start getting paid.png",
+    youtubeUrl: "https://www.youtube.com/embed/zX9Dm5lVzz0",
+    duration: "12:30",
+    featured: true
+  },
+   {
+    id: 12,
+    title: "Ai just made those people cheaper to replace",
+    category: "Talking Head",
+    description: "",
+    image: "/images/ai replace.png",
+    youtubeUrl: "https://www.youtube.com/embed/kF8zyEMVRUU",
+    duration: "5:23",
     featured: true
   },
   // {
