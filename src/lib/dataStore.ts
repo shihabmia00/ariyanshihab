@@ -236,6 +236,16 @@ const DEFAULT_PROJECTS: Project[] = [
     duration: "0:52",
     featured: true
   },
+  {
+    id: 19,
+    title: "Elon Musk he's business empire | Motion Graphics",
+    category: "Motion Graphics",
+    description: "Elon Musk Business Empire",
+    image: "/images/elon mask business.png",
+    youtubeUrl: "https://www.youtube.com/embed/FOpCvo25L9I",
+    duration: "0:10",
+    featured: true
+  },
    
   // {
   //   id: 11,
