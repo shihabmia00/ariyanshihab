@@ -232,7 +232,7 @@ const DEFAULT_PROJECTS: Project[] = [
     category: "Motion Graphics",
     description: "Real State Work",
     image: "/images/Viral content.png",
-    youtubeUrl: "https://www.youtube.com/embed/4X0zE9bA-sQ",
+    youtubeUrl: "https://www.youtube.com/embed/5vB6jIlJJ5o",
     duration: "0:24",
     featured: true
   },
