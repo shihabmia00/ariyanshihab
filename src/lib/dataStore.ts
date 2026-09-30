@@ -239,7 +239,7 @@ const DEFAULT_PROJECTS: Project[] = [
   {
     id: 19,
     title: "Viral Content Instagram Reels",
-    category: "Reels",
+    category: "Motion Graphics",
     description: "Viral Content",
     image: "/images/viral content.png",
     youtubeUrl: "https://www.youtube.com/embed/4X0zE9bA-sQ",
