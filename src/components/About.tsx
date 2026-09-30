@@ -58,12 +58,6 @@ export default function About() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent opacity-60 pointer-events-none" />
             </div>
-            
-            {/* Experience Tag */}
-            <div className="absolute -bottom-3 -right-3 sm:-bottom-6 sm:-right-6 glass p-3 sm:p-6 rounded-[16px] sm:rounded-[32px] z-20 border border-accent/20 glow-md text-center sm:text-left">
-              <p className="text-xl sm:text-4xl font-display font-bold text-accent tracking-tighter leading-none">2+</p>
-              <p className="text-[7px] sm:text-[9px] font-bold text-text-soft uppercase tracking-[0.3em] leading-tight mt-1">Years Of<br className="hidden sm:block" />Experience</p>
-            </div>
           </motion.div>
 
           <motion.div
@@ -117,10 +111,6 @@ export default function About() {
             </div>
 
             <div className="mt-8 sm:mt-10 flex flex-wrap gap-8 sm:gap-10">
-              <div>
-                <p className="text-xl sm:text-2xl font-display font-bold text-text-pure tracking-tighter text-glow">173+</p>
-                <p className="text-[8px] sm:text-[9px] text-text-muted uppercase font-bold tracking-[0.3em] mt-1">Projects Done</p>
-              </div>
               <div>
                 <p className="text-xl sm:text-2xl font-display font-bold text-text-pure tracking-tighter text-glow">19+</p>
                 <p className="text-[8px] sm:text-[9px] text-text-muted uppercase font-bold tracking-[0.3em] mt-1">Happy Clients</p>

@@ -6,7 +6,7 @@ import { Menu, X, Play } from "lucide-react";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "Work", href: "/work" },
-  { name: "Services", href: "/#services" },
+  // { name: "Services", href: "/#services" }, // Client Reviews section বন্ধ থাকায় লুকানো
   { name: "About", href: "/#about" },
   { name: "Contact", href: "/#contact" },
 ];

@@ -18,7 +18,7 @@ export default function Footer() {
 
           {/* Links */}
           <div className="flex flex-wrap justify-center gap-8 text-[9px] font-bold text-text-muted uppercase tracking-[0.4em]">
-            <Link to="/#services" className="hover:text-accent transition-all duration-300">Expertise</Link>
+            {/* <Link to="/#services" className="hover:text-accent transition-all duration-300">Expertise</Link> */}
             <Link to="/work" className="hover:text-accent transition-all duration-300">Showcase</Link>
             <Link to="/#about" className="hover:text-accent transition-all duration-300">The Vision</Link>
             <Link to="/#contact" className="hover:text-accent transition-all duration-300">Connection</Link>

@@ -75,3 +75,17 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #A855F7;
 }
+
+/* Custom purple cursor (matches site theme) */
+@layer base {
+  html, body {
+    cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'><defs><filter id='g' x='-50%25' y='-50%25' width='200%25' height='200%25'><feDropShadow dx='0' dy='0' stdDeviation='1.6' flood-color='%23A855F7' flood-opacity='0.8'/></filter></defs><path filter='url(%23g)' d='M5 3 L5 22 L10 17.5 L13.5 25 L17 23.5 L13.7 16.3 L20.5 16 Z' fill='%23A855F7' stroke='%23F1E9FF' stroke-width='1.6' stroke-linejoin='round'/></svg>") 5 3, auto;
+  }
+  a, button, [role="button"], summary, label[for], select,
+  input[type="submit"], input[type="button"], .cursor-pointer {
+    cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'><defs><filter id='g' x='-50%25' y='-50%25' width='200%25' height='200%25'><feDropShadow dx='0' dy='0' stdDeviation='2' flood-color='%23A855F7' flood-opacity='0.9'/></filter></defs><circle filter='url(%23g)' cx='18' cy='18' r='11' fill='%23A855F7' fill-opacity='0.25' stroke='%23A855F7' stroke-width='2.2'/><circle cx='18' cy='18' r='3.6' fill='%23F1E9FF'/></svg>") 18 18, pointer;
+  }
+  input:not([type="submit"]):not([type="button"]), textarea {
+    caret-color: #A855F7;
+  }
+}

@@ -2,22 +2,28 @@ import { motion } from "motion/react";
 
 const journeyData = [
   {
-    year: "Present",
-    role: "SR. VIDEO EDITOR",
-    company: "BOOSTOPUS Remote – Sibiu, Romania",
-    description: " Edited product and documentary-style videos for YouTube, Instagram, Facebook, and TikTok, delivering 15+ videos per month",
+    year: "2025 June - 2026 April",
+    role: "SR. VIDEO EDITOR  (Remote)",
+    company: "Jones Road Productions - 9 Huron Street, Takapuna,New Zealand",
+    description: " Edited short-form and long-form videos for digital platforms, including YouTube content, social media videos, and engaging audience-focused edits.",
   },
   {
-    year: "2025",
-    role: "Junior Video Editor",
-    company: "Writersmirro Remote – Sydney, Australia",
-    description: "Edited short- and long-form videos for digital platforms — 10–20/month. Managed cross-time-zone collaboration with a remote team to meet weekly publishing deadlines.",
+    year: "2024 November - 2025 March",
+    role: "Junior Video Editor (Remote)",
+    company: "Jones Road Productions - 9 Huron Street, Takapuna,New Zealand",
+    description: " Edited short-form and long-form videos for digital platforms, including YouTube content, social media videos, and engaging audience-focused edits.",
   },
   {
-    year: "2024",
-    role: "Proelectech.com Remote – Sibiu, Romania",
-    company: "LUMINA ART LAB",
-    description: "Edited product demo and promotional videos across multiple product launches for web and social media. Synced footage, motion graphics, and voiceover to align delivery with marketing launch timelines",
+    year: "2024 June - 2024 October",
+    role: "Junior Video Editor (Remote)",
+    company: "Recap Media - Tvetenveien, Norway",
+    description: "Created product videos, UGC content, and social media edits for YouTube, Instagram, Facebook, and TikTok with captions, visuals, and creative enhancements.",
+  },
+  {
+    year: "2024 February - 2024 May",
+    role: "Video Editor Intern (Remote)",
+    company: "J-Cut Production - Pantheon Elysee, United Arab Emirates",
+    description: "Assisted with short-form and long-form video editing, including basic cuts, audio cleanup, captions, and visual improvements for digital content.",
   },
 ];
 

@@ -8,7 +8,8 @@ import { useEffect } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Services from "./components/Services";
+// Client Video Reviews section বন্ধ রাখা হয়েছে (আবার চালু করতে নিচের দুটি লাইনের // মুছে দিন)
+// import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import WhyHireMe from "./components/WhyHireMe";
 import Journey from "./components/Journey";
@@ -53,7 +54,7 @@ function AnimatedRoutes() {
               <Hero />
 
               <Portfolio />
-              <Services />
+              {/* <Services /> */}
               <WhyHireMe />
               <Journey />
               

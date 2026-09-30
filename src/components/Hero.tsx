@@ -1,7 +1,13 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
-import { Play, ChevronRight, Star, Users, Award } from "lucide-react";
-import heroPortrait from "../assets/images/user_hero_portrait.jpg";
+import { Play, ChevronRight, Star } from "lucide-react";
+
+// ==== Hero video settings ====
+// YouTube video ID বদলাতে শুধু নিচের লাইনটি পরিবর্তন করুন
+// (যেমন: youtube.com/watch?v=XXXXXXXXXXX এর XXXXXXXXXXX অংশ)
+const HERO_VIDEO_ID = "2JtdU-xywOA";
+// ভিডিও যদি Reel/Short (উল্লম্ব) হয় তাহলে true করুন
+const HERO_VIDEO_VERTICAL = false;
 
 export default function Hero() {
   return (
@@ -64,50 +70,18 @@ export default function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="relative"
         >
-          {/* Main Hero Image Container */}
-          <div className="relative aspect-[4/5] max-w-md mx-auto">
-            <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent z-10" />
+          {/* Main Hero Video Container */}
+          <div className={`relative mx-auto ${HERO_VIDEO_VERTICAL ? "aspect-[9/16] max-w-xs" : "aspect-video max-w-xl"}`}>
             <div className="absolute -inset-4 bg-accent/10 blur-3xl rounded-full z-0 animate-pulse" />
-            <div className="relative z-10 w-full h-full rounded-[40px] overflow-hidden border border-white/10 glass-dark">
-              <img 
-                 src="/images/IMG_6901.png"
-                 alt="Ariyan Shihab" 
-                 className="w-full h-full object-cover object-center transition-all duration-700 hover:scale-105" 
+            <div className="relative z-10 w-full h-full rounded-[28px] sm:rounded-[40px] overflow-hidden border border-white/10 glass-dark bg-black">
+              <iframe
+                src={`https://www.youtube.com/embed/${HERO_VIDEO_ID}?autoplay=0&mute=1&loop=1&playlist=${HERO_VIDEO_ID}&playsinline=1&rel=0&modestbranding=1`}
+                title="Ariyan Shihab - Showreel"
+                className="w-full h-full border-none"
+                allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
               />
             </div>
-            
-            {/* Floating Stats */}
-            <motion.div 
-              animate={{ y: [0, -10, 0] }}
-              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -right-4 sm:-right-8 top-1/4 z-20 glass p-3 sm:p-4 rounded-2xl glow-lg border border-white/20 hidden sm:block"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center text-accent">
-                  <Award size={20} />
-                </div>
-                <div>
-                  <p className="text-xs text-text-soft font-medium">Experience</p>
-                  <p className="text-lg font-bold text-text-pure">3+ YEARS</p>
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div 
-              animate={{ y: [0, 10, 0] }}
-              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -left-4 sm:-left-8 bottom-1/4 z-20 glass p-3 sm:p-4 rounded-2xl glow-lg border border-white/20 hidden sm:block"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center text-accent">
-                  <Users size={20} />
-                </div>
-                <div>
-                  <p className="text-xs text-text-soft font-medium">Projects</p>
-                  <p className="text-lg font-bold text-text-pure">183+ COMPLETED</p>
-                </div>
-              </div>
-            </motion.div>
           </div>
         </motion.div>
       </div>

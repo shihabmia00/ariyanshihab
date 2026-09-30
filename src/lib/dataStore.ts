@@ -99,9 +99,9 @@ const DEFAULT_PROJECTS: Project[] = [
   {
     id: 5,
     title: "Here's My Advice for Video Editing in 2026",
-    category: "Reels",
+    category: "Personal Brand",
     description: "Personal Brand",
-    image: "/images/ChatGPT Image Sep 27, 2026, 10_41_13 PM.png",
+    image: "/images/good video editor 2026.png",
     youtubeUrl: "https://www.youtube.com/embed/xxXjrW2XAb8",
     duration: "0:53",
     featured: true
@@ -119,9 +119,9 @@ const DEFAULT_PROJECTS: Project[] = [
   {
     id: 7,
     title: "Most people think editing is just cutting clips",
-    category: "Reels",
+    category: "Personal Brand",
     description: "Personal Brand",
-    image: "/images/ChatGPT Image Sep 27, 2026, 10_37_08 PM.png",
+    image: "/images/cutting clip 2.png",
     youtubeUrl: "https://www.youtube.com/embed/k1l8jvG0Shk",
     duration: "0:49",
     featured: true
@@ -176,6 +176,67 @@ const DEFAULT_PROJECTS: Project[] = [
     duration: "5:23",
     featured: true
   },
+  {
+    id: 13,
+    title: "Who am I and my services",
+    category: "Personal Brand",
+    description: "Want to edit your videos? I can help you with that. I am a professional video editor and motion designer with 2+ years of experience.",
+    image: "/images/Intro Video.png",
+    youtubeUrl: "https://www.youtube.com/embed/CgJCAGMh5ys",
+    duration: "1:07",
+    featured: true
+  },
+   {
+    id: 14,
+    title: "Different Language Work | Instagram Reels",
+    category: "Reels",
+    description: "Instagram Reels",
+    image: "/images/arabic 2.png",
+    youtubeUrl: "https://www.youtube.com/embed/wz7tigsRu5c",
+    duration: "0:22",
+    featured: true
+  },
+  {
+    id: 15,
+    title: "Elon Mask he's business empire | Motion Graphics",
+    category: "Motion Graphics",
+    description: "Elon Mask Business Empire",
+    image: "/images/elon mask business.png",
+    youtubeUrl: "https://www.youtube.com/embed/FOpCvo25L9I",
+    duration: "0:10",
+    featured: true
+  },
+  {
+    id: 16,
+    title: "3 ways to kick as a video editor",
+    category: "Reels",
+    description: "Before | After",
+    image: "/images/kick as a video editor.png",
+    youtubeUrl: "https://www.youtube.com/embed/OCnlMdtseG0",
+    duration: "0:16",
+    featured: true
+  },
+  {
+    id: 17,
+    title: "Real State Work Instagram Reels",
+    category: "Reels",
+    description: "Real State Work",
+    image: "/images/realstate.png",
+    youtubeUrl: "https://www.youtube.com/embed/OCnlMdtseG0",
+    duration: "0:20",
+    featured: true
+  },
+  {
+    id: 17,
+    title: "Real State Work Instagram Reels",
+    category: "Motion Graphics",
+    description: "Real State Work",
+    image: "/images/Viral content.png",
+    youtubeUrl: "https://www.youtube.com/embed/4X0zE9bA-sQ",
+    duration: "0:24",
+    featured: true
+  },
+   
   // {
   //   id: 11,
   //   title: "Documentary: The Artisan",
