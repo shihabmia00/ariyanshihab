@@ -221,7 +221,7 @@ const DEFAULT_PROJECTS: Project[] = [
     title: "Real State Work Instagram Reels",
     category: "Reels",
     description: "Real State Work",
-    image: "/images/Viral content.png",
+    image: "/images/realstate.png",
     youtubeUrl: "https://www.youtube.com/embed/5vB6jIlJJ5o",
     duration: "0:24",
     featured: true
