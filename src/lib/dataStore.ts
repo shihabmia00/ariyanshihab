@@ -226,6 +226,16 @@ const DEFAULT_PROJECTS: Project[] = [
     duration: "0:24",
     featured: true
   },
+  {
+    id: 18,
+    title: "GIG Video",
+    category: "Personal Brand",
+    description: "GIG Video",
+    image: "/images/professional talking head videos for youtube and vsl.jpg",
+    youtubeUrl: "https://www.youtube.com/embed/seZbrIe1SJ8",
+    duration: "0:52",
+    featured: true
+  },
    
   // {
   //   id: 11,
